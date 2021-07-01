@@ -27,9 +27,6 @@ Universal utility for programming FPGA
 
 %install
 %cmake_install
-
-%check
-%ctest
  
 %files
 %license LICENSE
