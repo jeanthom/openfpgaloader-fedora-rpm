@@ -18,6 +18,9 @@ BuildRequires: pkgconfig(hidapi-libusb)
 %description
 Universal utility for programming FPGA
 
+%prep
+%setup
+
 %build
 %cmake
 %cmake_build
@@ -29,6 +32,7 @@ Universal utility for programming FPGA
 %ctest
  
 %files
+%license LICENSE
 %{_bindir}/*
 %{_datadir}/*.bit
  
