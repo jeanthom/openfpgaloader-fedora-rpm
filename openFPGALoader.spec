@@ -1,11 +1,11 @@
-Name:        openfpgaloader
+Name:        openFPGALoader
 Version:     0.4.0
 %define uver 0.4.0
-Release:     1%{?dist}
+Release:     2%{?dist}
 Summary:     Universal utility for programming FPGA
 License:     ASL 2.0
 URL:         https://github.com/trabucayre/openFPGALoader
-Source0:     https://github.com/trabucayre/openFPGALoader/archive/v%{version}/openFPGAloader-v%{version}.tar.gz
+Source0:     https://github.com/trabucayre/openFPGALoader/archive/v%{version}/openFPGALoader-v%{version}.tar.gz
 Requires:    libftdi
 Requires:    libgudev
 BuildRequires: cmake
@@ -30,9 +30,9 @@ Universal utility for programming FPGA
  
 %files
 %license LICENSE
-%{_bindir}/*
+%{_bindir}/openFPGALoader
 %{_datadir}/*
  
 %changelog
-* Wed Jun 30 2021 Jean Thomas <git0@pub.jeanthomas.me> - v0.4.0-1
+* Thu Jul 1 2021 Jean Thomas <git0@pub.jeanthomas.me> - v0.4.0-1
 - Initial release
