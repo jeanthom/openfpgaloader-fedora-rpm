@@ -1,7 +1,7 @@
 Name:        openFPGALoader
 Version:     0.4.0
 %define uver 0.4.0
-Release:     2%{?dist}
+Release:     1%{?dist}
 Summary:     Universal utility for programming FPGA
 License:     ASL 2.0
 URL:         https://github.com/trabucayre/openFPGALoader
