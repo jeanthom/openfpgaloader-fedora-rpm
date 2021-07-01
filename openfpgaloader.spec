@@ -5,7 +5,7 @@ Release:     1%{?dist}
 Summary:     Universal utility for programming FPGA
 License:     ASL 2.0
 URL:         https://github.com/trabucayre/openFPGALoader
-Source0:     https://github.com/trabucayre/openFPGALoader/archive/v%{version}/%{name}-v%{version}.tar.gz
+Source0:     https://github.com/trabucayre/openFPGALoader/archive/v%{version}/openFPGAloader-v%{version}.tar.gz
 Requires:    libftdi
 Requires:    libgudev
 BuildRequires: cmake
