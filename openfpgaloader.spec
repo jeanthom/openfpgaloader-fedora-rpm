@@ -19,7 +19,7 @@ BuildRequires: pkgconfig(hidapi-libusb)
 Universal utility for programming FPGA
 
 %prep
-%setup
+%setup -n openFPGALoader-%{version}
 
 %build
 %cmake
