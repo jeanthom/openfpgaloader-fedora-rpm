@@ -31,7 +31,7 @@ Universal utility for programming FPGA
 %files
 %license LICENSE
 %{_bindir}/*
-%{_datadir}/openFPGAloader/*.bit
+%{_datadir}/*
  
 %changelog
 * Wed Jun 30 2021 Jean Thomas <git0@pub.jeanthomas.me> - v0.4.0-1
