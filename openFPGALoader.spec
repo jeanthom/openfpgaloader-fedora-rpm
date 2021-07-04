@@ -10,7 +10,7 @@ Requires:    libftdi
 Requires:    libgudev
 BuildRequires: cmake
 BuildRequires: gcc-c++
-%if 0%{?fedora} >= 1 || 0%{rhel} >= 8
+%if 0%{?fedora} >= 1 || 0%{?rhel} >= 8
 BuildRequires: libgudev-devel
 %endif
 BuildRequires: pkgconfig(libusb-1.0)
