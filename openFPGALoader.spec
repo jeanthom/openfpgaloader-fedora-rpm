@@ -1,6 +1,6 @@
 Name:        openFPGALoader
-Version:     0.5.0
-%define uver 0.5.0
+Version:     0.6.1
+%define uver 0.6.1
 Release:     1%{?dist}
 Summary:     Universal utility for programming FPGA
 License:     ASL 2.0
@@ -8,6 +8,7 @@ URL:         https://github.com/trabucayre/openFPGALoader
 Source0:     https://github.com/trabucayre/openFPGALoader/archive/v%{version}/openFPGALoader-v%{version}.tar.gz
 Requires:    libftdi
 Requires:    libgudev
+Requires:    zlib
 BuildRequires: cmake
 BuildRequires: gcc-c++
 %if 0%{?fedora} >= 1 || 0%{?rhel} >= 8
@@ -16,6 +17,7 @@ BuildRequires: libgudev-devel
 BuildRequires: pkgconfig(libusb-1.0)
 BuildRequires: pkgconfig(libftdi1)
 BuildRequires: pkgconfig(hidapi-libusb)
+BuildRequires: pkgconfig(zlib)
  
 %description
 Universal utility for programming FPGA
@@ -36,6 +38,9 @@ Universal utility for programming FPGA
 %{_datadir}/*
  
 %changelog
+* Sat Dec 4 2021 Jean THOMAS <git0@pub.jeanthomas.me> - v0.6.1-1
+- Update to v0.6.1 source
+
 * Mon Aug 2 2021 Jean THOMAS <git0@pub.jeanthomas.me> - v0.5.0-1
 - Update to v0.5.0 source
 
