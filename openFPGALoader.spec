@@ -1,6 +1,6 @@
 Name:        openFPGALoader
-Version:     0.7.0
-%define uver 0.7.0
+Version:     0.8.0
+%define uver 0.8.0
 Release:     1%{?dist}
 Summary:     Universal utility for programming FPGA
 License:     ASL 2.0
@@ -38,6 +38,9 @@ Universal utility for programming FPGA
 %{_datadir}/*
  
 %changelog
+* Sat Mar 19 2022 Jean THOMAS <virgule@jeanthomas.me> - v0.8.0-1
+- Update to v0.8.0 source
+
 * Tue Dec 28 2021 Jean THOMAS <git0@pub.jeanthomas.me> - v0.7.0-1
 - Update to v0.7.0 source
 
