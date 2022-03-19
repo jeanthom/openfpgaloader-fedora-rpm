@@ -1,0 +1,12 @@
+diff -urN openFPGALoader-0.8.0-orig/src/part.hpp openFPGALoader-0.8.0/src/part.hpp
+--- openFPGALoader-0.8.0-orig/src/part.hpp	2022-03-19 10:15:38.000000000 +0100
++++ openFPGALoader-0.8.0/src/part.hpp	2022-03-19 19:19:01.058753897 +0100
+@@ -141,7 +141,7 @@
+ 	int irlength;
+ } misc_device;
+ 
+-static std::map <int, misc_device> misc_dev_list = {
++static std::map <uint32_t, misc_device> misc_dev_list = {
+ 	{0x4ba00477, {"ARM cortex A9",         4}},
+ 	{0x5ba00477, {"ARM cortex A53",        4}},
+ 	{0xfffffffe, {"ZynqMP dummy device",   12}},
