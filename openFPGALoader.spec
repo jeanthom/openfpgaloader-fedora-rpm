@@ -6,7 +6,6 @@ Summary:     Universal utility for programming FPGA
 License:     ASL 2.0
 URL:         https://github.com/trabucayre/openFPGALoader
 Source0:     https://github.com/trabucayre/openFPGALoader/archive/v%{version}/openFPGALoader-v%{version}.tar.gz
-Patch0:      openfpgaloader-0.8.0-int-conv-err.patch
 Requires:    libftdi
 Requires:    libgudev
 Requires:    zlib
@@ -40,6 +39,9 @@ Universal utility for programming FPGA
 %{_datadir}/*
  
 %changelog
+* Wed Jul 26 2022 Jean THOMAS <virgule@jeanthomas.me> - v0.9.0-2
+- Remove 8819821 patch
+
 * Wed Jul 26 2022 Jean THOMAS <virgule@jeanthomas.me> - v0.9.0-1
 - Update to v0.9.0 source
 
