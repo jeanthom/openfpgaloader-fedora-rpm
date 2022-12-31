@@ -23,7 +23,7 @@ BuildRequires: pkgconfig(zlib)
 Universal utility for programming FPGA
 
 %prep
-%setup -n openFPGALoader-%{version}
+%setup -q -n openFPGALoader-%{version}
 
 %build
 %cmake
@@ -44,13 +44,13 @@ Universal utility for programming FPGA
 * Mon Sep 26 2022 Jean THOMAS <virgule@jeanthomas.me> - v0.9.1-1
 - Update to v0.9.1 source
 
-* Wed Jul 26 2022 Jean THOMAS <virgule@jeanthomas.me> - v0.9.0-3
-- Fix %prep section
+* Tue Jul 26 2022 Jean THOMAS <virgule@jeanthomas.me> - v0.9.0-3
+- Fix prep section
 
-* Wed Jul 26 2022 Jean THOMAS <virgule@jeanthomas.me> - v0.9.0-2
+* Tue Jul 26 2022 Jean THOMAS <virgule@jeanthomas.me> - v0.9.0-2
 - Remove 8819821 patch
 
-* Wed Jul 26 2022 Jean THOMAS <virgule@jeanthomas.me> - v0.9.0-1
+* Tue Jul 26 2022 Jean THOMAS <virgule@jeanthomas.me> - v0.9.0-1
 - Update to v0.9.0 source
 
 * Sat Mar 19 2022 Jean THOMAS <virgule@jeanthomas.me> - v0.8.0-2
