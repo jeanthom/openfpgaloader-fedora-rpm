@@ -1,7 +1,7 @@
 Name:        openFPGALoader
 Version:     1.0.0
 %define uver 1.0.0
-Release:     1%{?dist}
+Release:     2%{?dist}
 Summary:     Universal utility for programming FPGA
 License:     Apache-2.0
 URL:         https://github.com/trabucayre/openFPGALoader
