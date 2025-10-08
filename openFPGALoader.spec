@@ -3,7 +3,7 @@ Version:     1.0.0
 %define uver 1.0.0
 Release:     1%{?dist}
 Summary:     Universal utility for programming FPGA
-License:     ASL 2.0
+License:     Apache-2.0
 URL:         https://github.com/trabucayre/openFPGALoader
 Source0:     https://github.com/trabucayre/openFPGALoader/archive/v%{version}/openFPGALoader-v%{version}.tar.gz
 Requires:    libftdi
@@ -38,6 +38,9 @@ Universal utility for programming FPGA
 %{_datadir}/*
  
 %changelog
+* Wed Oct 8 2025 Jean THOMAS <virgule@jeanthomas.me> - v1.0.0-2
+- Use modern SPDX license
+
 * Sun Sep 21 2025 Jean THOMAS <virgule@jeanthomas.me> - v1.0.0-1
 - Update to v1.0.0 source
 
